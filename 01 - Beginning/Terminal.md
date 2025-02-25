@@ -12,6 +12,6 @@ $$\text{Error when creating the same file twice -> mkdir: created-using-the-comm
 
 > cd {+ an argument(folder_name)}: change directory (Navigates to subdirectory under current directory)
 
-> cd ..: back to parent directory (yeah)
+> cd ..: back to parent directory (yeah two dots)
 
 <h6>$$\uparrow$$ 25 Feb</h6>
