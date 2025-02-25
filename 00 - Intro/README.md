@@ -8,5 +8,5 @@
 
 - In GitHub: Settings -> Developer Settings -> Personal Access Tokens -> Generate New Token (classic) -> Enter: 'Note' is headfirst-git | 'Expiration' is no expiration (90 days is recommended) -> check the 'repo' box. DONE.
 
-- https://i-love-git.com  (Download Sample Code Folder)
+> https://i-love-git.com  (Download Sample Code Folder)
 
