@@ -12,6 +12,14 @@ $$\text{Error when creating the same file twice -> mkdir: created-using-the-comm
 
 > cd {+ an argument(folder_name)}: change directory (Navigates to subdirectory under current directory)
 
-> cd ..: back to parent directory (yeah two dots)
+> cd ..: navigates back to parent directory (yeah two dots)
 
 <h6>$$\uparrow$$ 25 Feb</h6>
+
+> A space is expected after command-line functions like mkdir & cd, etc. (It is called 'delimiter')
+
+> Note that for mkdir {+ an argument(new_folder_name)}: Only two options -> 1) hyphens: file-name | 2) double quotes: "file name"
+
+> Deleting files using command-line function usually bypasses the trash can (non-recoverable) | Better to delete files in Finder.
+
+> 
