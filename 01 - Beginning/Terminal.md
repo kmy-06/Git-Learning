@@ -1,8 +1,8 @@
-## Version Control -> Working Folder
+## Version Control -> Create Working Folder With Git
 
 > pwd: print working directory (Display current path of the directory) [Output '/Users/...(foldername)' ]
 
-> mkdir {+ an argument(new_folder_name)}: make directory (Create directory/New Folder with a given name) [No output] | Folder = Repository |
+> mkdir {+ an argument(new_folder_name)}: make directory / create a new project folder [No output] | Folder = Repository | Step_1 |
 
 $$\text{Error when creating the same file twice -> mkdir: created-using-the-command-line: File exists}$$
 
@@ -10,7 +10,7 @@ $$\text{Error when creating the same file twice -> mkdir: created-using-the-comm
 
 > ls -A: list Flag All (Display all files including "." files which are hidden)
 
-> cd {+ an argument(folder_name)}: change directory (Navigates to subdirectory under current directory)
+> cd {+ an argument(folder_name)}: change directory (Navigates to subdirectory under current directory) 
 
 > cd ..: navigates back to parent directory (yeah two dots)
 
@@ -28,7 +28,7 @@ $$\text{Git-Learning} >$$
 
 > The above terminal style shows the current directory (Git-Learning) with the '>' sign: export PS1='%1~ > '
 
-> git init: Create Git repository (a .git hidden folder) [Output: below (ignore all the hints)] | Step 1 | Check using: ls -A
+> git init: initialize a Git repository within THAT folder (a .git hidden folder) [Output: below (ignore all the hints)] | Step_2 | Check using: ls -A
 
 ```
 ch01_01 > git init
@@ -48,7 +48,7 @@ Initialized empty Git repository in /Users/kongmoyu/Desktop/Head-First/Git-Learn
 ch01_01 > ls -A
 .git
 ```
-> Give Git a few details about yourself, once and for all projects on your machine (in any directory) [No output] | Step 2 |:
+> Give Git a few details about yourself, once and for all projects on your machine (in any directory) [No output] | Just_Do_It |:
 
 ```
 ch01_01 > git config --global user.name "Private_Info_Surname Moyu"
@@ -58,3 +58,4 @@ ch01_01 > git config --global user.email "my.name@dhs.edu.sg"
 
 > Basically, Git is all about: <b>Store Progress-Revisions To A Good Place When Working On A Project :)</b>
 
+<h6>$$\uparrow$$ 27 Feb</h6>
