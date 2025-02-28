@@ -14,7 +14,7 @@ $$\text{Error when creating the same file twice -> mkdir: created-using-the-comm
 
 > cd ..: navigates back to parent directory (yeah two dots)
 
-<h6>$$\uparrow$$ 25 Feb</h6>
+<h6>$$\uparrow$$ 25 Feb 2025</h6>
 
 > A space is expected after command-line functions like mkdir & cd, etc. (It is called 'delimiter')
 
@@ -58,4 +58,4 @@ ch01_01 > git config --global user.email "my.name@dhs.edu.sg"
 
 > Basically, Git is all about: <b>Store Progress-Revisions To A Good Place When Working On A Project :)</b>
 
-<h6>$$\uparrow$$ 27 Feb</h6>
+<h6>$$\uparrow$$ 27 Feb 2025</h6>
