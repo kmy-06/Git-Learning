@@ -79,7 +79,9 @@ HawtDawg > git commit -m "My first commit"
 
 > When you commit, A commit object is created (e.g 0596350). It stores all your changes and info in binary format, which is very hard for humans to read but super safe and efficient for Git :)
 
-> There are two parts for Git's Working Directory: 1) The 'Index' staging area, house temporary changes. 2) The Git's memory bank (.git) stores contents in the object database.
+> There are two parts for Git's Working Directory:
+> 1) The 'Index' staging area, house temporary changes.
+> 2) The Git's memory bank (.git) stores contents in the object database.
 
 <h6>$$\uparrow$$ 2 Mar 2025</h6>
 
