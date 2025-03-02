@@ -26,7 +26,7 @@ $$\text{Error when creating the same file twice -> mkdir: created-using-the-comm
 
 $$\text{Git-Learning} >$$
 
-> The above terminal style shows the current directory (Git-Learning) with the '>' sign: export PS1='%1~ > '
+> The above terminal style shows the current directory (Git-Learning) with the '>' sign: export PS1='%1~ > ' ((temporarily))
 
 > git init: initialize a Git repository within THAT folder (a .git hidden folder) [Output: below (ignore all the hints)] | Step_2 | Check using: ls -A
 
@@ -59,3 +59,16 @@ ch01_01 > git config --global user.email "my.name@dhs.edu.sg"
 > Basically, Git is all about: <b>Store Progress-Revisions To A Good Place When Working On A Project :)</b>
 
 <h6>$$\uparrow$$ 27 Feb 2025</h6>
+
+> For permanent change to:
+
+$$\text{Current_Directory} >$$
+
+> Restart terminal and type `nano ~/.zshrc` and Enter. Then, if you are in Pico (not Nano) - Pine Integrated Composer: A text editor that runs inside your terminal, Change your prompt to: `PROMPT='%1~ > '`. Press Enter to save and quit Pico with `control + x`.
+
+
+
+
+
+
+
