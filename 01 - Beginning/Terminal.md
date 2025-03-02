@@ -2,7 +2,7 @@
 
 > pwd: print working directory (Display current path of the directory) [Output '/Users/...(foldername)' ]
 
-> mkdir {+ an argument(new_folder_name)}: make directory / create a new project folder [No output] | Folder = Repository | Step_1 |
+> mkdir <argument(new_folder_name)>: make directory / create a new project folder [No output] | Folder = Repository | Step_1 |
 
 $$\text{Error when creating the same file twice -> mkdir: created-using-the-command-line: File exists}$$
 
@@ -10,7 +10,7 @@ $$\text{Error when creating the same file twice -> mkdir: created-using-the-comm
 
 > ls -A: list Flag All (Display all files including "." files which are hidden)
 
-> cd {+ an argument(folder_name)}: change directory (Navigates to subdirectory under current directory) 
+> cd <argument(folder_name)>: change directory (Navigates to subdirectory under current directory) 
 
 > cd ..: navigates back to parent directory (yeah two dots)
 
@@ -18,7 +18,7 @@ $$\text{Error when creating the same file twice -> mkdir: created-using-the-comm
 
 > A space is expected after command-line functions like mkdir & cd, etc. (It is called 'delimiter')
 
-> Note that for mkdir {+ an argument(new_folder_name)}: Only two options -> 1) hyphens: file-name | 2) double quotes: "file name"
+> Note that for mkdir <argument(new_folder_name)>: Only two options -> 1) hyphens: file-name | 2) double quotes: "file name"
 
 > Deleting files using command-line function usually bypasses the trash can (non-recoverable) | Better to delete files in Finder.
 
@@ -66,8 +66,24 @@ $$\text{Current Directory} >$$
 
 > Restart terminal and type `nano ~/.zshrc` and Enter. Then, if you are in Pico (not Nano) - Pine Integrated Composer: A text editor that runs inside your terminal, Change your prompt to: `PROMPT='%1~ > '`. Press Enter to save and quit Pico with `control + x`.
 
+> git add <filename>: Add the file (e.g checklist.md) to git.
 
+> git commit -m "My first commit": Commit with a message to provide a meaningful reminder as to why you made this change. (The -m is called a flag, it stands for message) [Output: below (Looks fine)]
 
+```
+HawtDawg > git commit -m "My first commit"
+[master (root-commit) 0596350] My first commit
+ 1 file changed, 5 insertions(+)
+ create mode 100644 Checklist.md
+```
+
+> When you commit, A commit object is created (e.g 0596350). It stores all your changes and info in binary format, which is very hard for humans to read but super safe and efficient for Git :)
+
+> There are two parts for Git's Working Directory: 1) The 'Index' staging area, house temporary changes. 2) The Git's memory bank (.git) stores contents in the object database.
+
+<h6>$$\uparrow$$ 2 Mar 2025</h6>
+
+> Multiple states of files in a Git repository.
 
 
 
