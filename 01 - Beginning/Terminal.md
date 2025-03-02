@@ -62,7 +62,7 @@ ch01_01 > git config --global user.email "my.name@dhs.edu.sg"
 
 > For permanent change to:
 
-$$\text{Current_Directory} >$$
+$$\text{Current`_`Directory} >$$
 
 > Restart terminal and type `nano ~/.zshrc` and Enter. Then, if you are in Pico (not Nano) - Pine Integrated Composer: A text editor that runs inside your terminal, Change your prompt to: `PROMPT='%1~ > '`. Press Enter to save and quit Pico with `control + x`.
 
