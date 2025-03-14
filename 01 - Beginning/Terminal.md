@@ -42,7 +42,7 @@ hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
 hint: 'development'. The just-created branch can be renamed via this command:
 hint:
 hint: 	git branch -m <name>
-Initialized empty Git repository in /Users/kongmoyu/Desktop/Head-First/Git-Learning/ch01_01/.git/
+Initialized empty Git repository in /Users/moyu/Desktop/Head-First/Git-Learning/ch01_01/.git/
 ```
 ```
 ch01_01 > ls -A
