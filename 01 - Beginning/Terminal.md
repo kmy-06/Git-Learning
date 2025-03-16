@@ -8,7 +8,7 @@ $$\text{Error when creating the same file twice -> mkdir: created-using-the-comm
 
 > ls: list (Display all files in current directory)
 
-> ls -A: list Flag All (Display all files including "." files which are hidden)
+> ls -A: list Flag All (Display all files including "." files which are hidden: `shift`+ `cmd` + `.`)
 
 > cd <argument(folder_name)>: change directory (Navigates to subdirectory under current directory) 
 
